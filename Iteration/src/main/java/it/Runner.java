@@ -12,6 +12,8 @@ public class Runner {
 		ir.PrintNumFromTo(1, 100);
 		System.out.println("------");
 		ir.PrintNumFromTo(1, 1000);
+		System.out.println("------");
+		ir.PrintOneToTenWords();
 	}
 
 }
