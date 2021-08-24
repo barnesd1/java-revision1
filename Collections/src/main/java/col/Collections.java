@@ -7,7 +7,7 @@ public class Collections {
 	public void AddToArray() {
 		int[] Ary = {};
 		for(int i=0;i<100;i++) {
-			Ary[i] = 1;
+			Ary[i] = i+1;
 		}
 	}
 	

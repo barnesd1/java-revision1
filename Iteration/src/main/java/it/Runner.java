@@ -3,7 +3,7 @@ package it;
 public class Runner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		Iteration ir = new Iteration();
 		ir.PrintNumFromTo(1, 10);
 		System.out.println("------");
