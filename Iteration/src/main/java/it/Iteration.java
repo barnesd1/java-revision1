@@ -3,7 +3,7 @@ package it;
 public class Iteration {
 	Iteration() {}
 	public void PrintNumFromTo(int from, int to) {
-		for(int i=from;i<to;i++) {
+		for(int i=from;i<=to;i++) {
 			System.out.println(i);
 		}
 	}
