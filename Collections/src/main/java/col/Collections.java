@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 public class Collections {
 	Collections() {}
-	public void AddToArray() {
-		int[] Ary = {};
+	public int[] AddToArray() {
+		int[] Ary = new int[100];
 		for(int i=0;i<100;i++) {
 			Ary[i] = i+1;
 		}
+		return Ary;
 	}
 	
 	public ArrayList<Integer> AddToList() {
